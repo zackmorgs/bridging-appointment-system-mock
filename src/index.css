@@ -1,0 +1,243 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+   text-rendering:geometricPrecision;
+}
+
+:root {
+  font-size:20px;
+ /* max-width:50ch; */
+}
+h1,h2,h3,h4,h5,h6,p {
+  max-width:50ch;
+}
+body {
+  font-family: 'Gudea', sans-serif;
+  margin:0;
+}
+#root {
+  margin:0;
+  padding:0;
+}
+#container-main {
+  padding-top:1rem;
+}
+.container {
+  max-width:960px;
+  margin:0 auto;
+}
+.background-orange {
+  background-color:#f68b20;
+  color:white;
+}
+
+.background-lightblue {
+  background-color:#e6f5f7;
+}
+
+.background-brown {
+  background-color:#726758;
+}
+
+.background-darkgrey {
+  background-color:#36434b;
+}
+
+.indiglo-link {
+  color:#60c2ca;
+}
+nav {
+  /* outline:1px solid black; */
+  box-shadow: 0 2px 0 0 #f5f5f5;
+
+}
+nav .container {
+  padding:1rem 0 0.75rem;
+  display:flex;
+  flex-direction: row;
+    flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+align-items: flex-end;
+ align-content: flex-end;
+}
+.nav-brand {
+  max-width:8rem;
+}
+.nav-brand a {
+  display:block;
+  padding-top: 1rem;
+}
+#brand {
+  width:100%;
+}
+/* .nav-divider {
+  border-right:2px solid black;
+  margin:3rem 0 0rem;
+  padding:0;
+  height:1.5rem;
+} */
+.nav-group {
+  /* outline:1px solid black; */
+}
+nav ul {
+  margin:0;
+  padding:0;
+  display:flex;
+}
+
+nav li {
+  list-style-type:none;
+  margin:0.rem;
+  padding:0.5rem 1rem;
+  /* height: 2.25rem; */
+  /* margin-top: 2.5rem; */
+      text-align: center;
+}
+nav li a {
+  text-decoration:none;
+  color:initial;
+  /* text-align: center; */
+  font-size:0.75rem;
+  /* font-weight:bold; */
+}
+.text-nav {
+  display: block;
+  margin-top: 5px;
+}
+nav a svg {
+  width:100%;
+  display:block;
+  /* margin:0.5rem auto; */
+    text-align: center;
+}
+
+#nav-user-actions {
+  display:flex;
+  margin-top:3rem;
+  padding:0.5rem 0.5rem;
+  background:#ececec;
+  /* color: white;; */
+  border-radius:0.25rem;
+}
+/* #nav-user-actions svg {
+  margin-right:0.5rem;
+} */
+#nav-user-actions span {
+  font-size:0.7rem;
+}
+nav .feather-user {
+  margin-right:4px;
+}
+/* h1,h2,h3,h4,h5 {
+  background-color:yellow;
+} */
+h1 {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  margin: 3rem 0 1rem;
+  font-weight: 600;
+  /*  */
+}
+h2 {
+  font-size:2.75rem;
+  line-height: 3.5rem;
+  margin:2rem 0 1rem;
+  font-weight:700;
+  font-family: 'Signika', sans-serif;
+}
+h3 {
+  font-size: 2rem;
+line-height: 3rem;
+  margin:2rem 0 1rem;
+  font-weight:600;
+  font-family: 'Signika', sans-serif;
+}
+h4 {
+  font-size:1.5rem;
+  line-height:2rem;
+  margin:2rem 0 1rem;
+  font-weight:600;
+  font-family: 'Signika', sans-serif;
+}
+h5 {
+  font-size:1.25rem;
+  line-height:1.5rem;
+  margin:1rem 0 1rem;
+  font-weight:600;
+}
+p {
+  font-size:1rem;
+  line-height:1.5rem;
+  margin:1rem 0 1rem;
+}
+
+@media (min-width: 375px ) {
+  @media (orientation: portrait) {
+
+  }
+}
+
+@media (min-width: 414px) {
+  @media (orientation: portrait) {
+    
+  }
+}
+
+/* Some larger smartphones in portrait mode */
+@media (min-width: 515px) {
+  @media (orientation: portrait) {
+    
+  }
+} 
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  @media (orientation: portrait) {
+    
+  }
+} 
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+  /* iPad Pro */
+@media (min-width: 1024px) {  
+ 
+}
+@media (min-width: 1152px) {  
+  .container {
+    max-width:1024px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .container {
+    max-width:1160px;
+  }
+}
+@media (min-width: 1344px) {  
+    
+}
+/* Straight-up 1080 */
+@media (min-width: 1920px) {  
+    
+}
+
+/* Straight-up 4k Displays */
+@media (min-width: 3840px) {  
+
+}

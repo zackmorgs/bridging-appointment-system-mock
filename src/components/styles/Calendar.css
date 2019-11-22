@@ -1,0 +1,90 @@
+.calendar {
+  width: 100%;
+  /* padding:1rem; */
+
+}
+
+.calendar-header {
+  /* outline:1px solid red; */
+  text-align: center;
+  /* text-transform:uppercase; */
+  /* padding-bottom:0.5rem; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 0 2px 0 0 #f4f4f4;
+}
+
+.calendar-header svg {
+  /* margin-top: */
+  align-self: flex-end;
+  margin: 0 0.5rem 1.5rem;
+  color: #90b8cb;
+  cursor:pointer;
+}
+
+.calendar-header h4 {
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* font-weight:600; */
+}
+
+#text-month {
+  color: #5f6798;
+}
+
+#year-name {
+  font-weight: 400;
+  color: #2a73a7;
+}
+
+.calendar-weekday-container {
+  /* border-bottom: 1px solid #dadce0; */
+  padding: 1rem 0 0.5rem;
+  /* display:grid;
+  gap: 1em; */
+}
+
+.calendar-weekday {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  letter-spacing: 1.125pt;
+  /* padding:0rem 0 0.25rem; */
+  font-weight: 600;
+  color: #6d95d2;
+  line-height: 10px;
+  padding-top: 2px;
+  font-family: 'Signika', sans-serif;
+  font-weight: 700;
+}
+
+.calendar-weekday-container,
+.calendar-date-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+}
+
+.calendar-date-container {
+  padding-top: 0.5rem;
+}
+
+/* .calendar-date {
+  outline:1px solid red;
+
+} */
+
+.weekday-header {
+  font-weight: 400;
+  text-align: right;
+  /* border-bottom:1px solid #e6f5f7; */
+  padding: 0.25rem;
+  text-transform: uppercase;
+  /* font-size:0.75rem; */
+  /* font-weight:600; */
+
+}

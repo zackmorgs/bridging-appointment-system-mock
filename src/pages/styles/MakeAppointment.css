@@ -1,0 +1,28 @@
+/* #make-appointment {
+
+} */
+
+/* .page-header {
+
+} */
+
+/* .text-title {
+
+} */
+
+.appointment-data {
+  display:flex;
+}
+.card {
+  padding:1rem;
+}
+/* .appointment-info {
+  
+} */
+.appointment-info p {
+
+}
+.appointment-calendar-view {
+  margin:0.25rem;
+  background:#d9d9d9;
+}

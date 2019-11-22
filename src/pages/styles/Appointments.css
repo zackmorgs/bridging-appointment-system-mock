@@ -1,0 +1,127 @@
+.page-header {
+    box-shadow: 0 2px 0 0 #dbedec;
+}
+#sort-select {
+  display: flex;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+}
+
+#sort-select label {
+  /* background:red; */
+  display: block;
+  padding-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+#opt-sort {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: 1rem;
+  /* height: 2.5em; */
+  justify-content: flex-start;
+  /* line-height: 1.5; */
+  /* padding-bottom: calc(.5em - 1px); */
+  /* padding-left: calc(.75em - 1px); */
+  /* padding-right: calc(.75em - 1px); */
+  /* padding-top: calc(.5em - 1px); */
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  position: relative;
+  vertical-align: top;
+  background-color: #fff;
+  border-color: #dbdbdb;
+  border-radius: 4px;
+  color: #363636;
+  padding-right: 2.5em;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  /* max-width: 100%; */
+  outline: 0;
+  background-color: #fff;
+  border-color: #dbdbdb;
+  border-radius: 4px;
+  color: #363636;
+}
+
+#opt-sort::after {
+  border: 3px solid transparent;
+  height: 4px;
+  width: 4px;
+}
+
+.appointments-list {
+  list-style-type: none;
+  margin: 1rem 0;
+  padding: 0.25rem;
+}
+
+.appointment {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+
+  padding: 0.5rem 0.25rem 1rem .5rem;
+  border-radius: 4px;
+  margin: 0.5rem 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+.appointment:hover {
+  background:#f6f6f6;
+}
+
+.feather.feather-file-text {
+  margin: 0.5rem 1.25rem 0.5rem 0.5rem;
+  padding: 0.25rem;
+  height: 2rem;
+  width: 2rem;
+  border: 2px solid #cdd8dc;
+  border-radius: 4px;
+}
+
+.appointment-info {
+  display: block;
+}
+
+.appointment-info i {
+  color: #919697;
+  font-size: 0.8rem;
+  letter-spacing: 0.25pt;
+}
+
+.text-appointment-title {
+  display: block;
+  line-height: 1.75rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.appointment-controls {
+  align-self: flex-start;
+}
+
+#btn-appointment {
+  font-size: 0.6rem;
+  padding: 0.25rem .5rem;
+  background:#1e74cd;
+  /* display:flex;
+  align-items: center;
+  align-content: center;
+  width: 2.5rem; */
+}
+#btn-appointment span {
+  margin-left:0.25em;
+}
+
+.feather.feather-eye {
+  /* margin-right:1em; */
+  position: relative;
+  top: 2px;
+}

@@ -1,0 +1,13 @@
+- pages
+  - dashboard
+    - 7-day schedule
+    - 
+  - calendar
+    - show current month intitially
+    - go to prev/next month
+    - add event
+    - remove event
+    - edit event
+    - label no-show
+  - my appointments
+  
