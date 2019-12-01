@@ -66,6 +66,7 @@ class Calendar extends Component {
     };
     // console.log('firstDayOfMonth:', firstDayOfMonth())
     let blankDates = [];
+    console.log('firstDayOfMonth',firstDayOfMonth());
     for (let i = 0; i < firstDayOfMonth(); i++) {
       blankDates.push(
         <div className="calendar-day empty">{""}</div>
